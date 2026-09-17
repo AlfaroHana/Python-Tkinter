@@ -57,8 +57,12 @@ Requisitos e Instalación
 1. Requisitos: Tener instalado Python 3.8 o superior.
 2. Dependencias: Instalar la librería `Pillow` para la gestión de imágenes
 
-Interfaz gráfica principal: <img width="490" height="685" alt="Interfaz grafica principal" src="https://github.com/user-attachments/assets/183a2a2e-6765-47a6-a9a0-2e5feab158a9" />
+Interfaz gráfica principal:
+
+<img width="490" height="685" alt="Interfaz grafica principal" src="https://github.com/user-attachments/assets/183a2a2e-6765-47a6-a9a0-2e5feab158a9" />
 
 
-Resultado: <img width="612" height="295" alt="resultado" src="https://github.com/user-attachments/assets/6aac9b40-2d7d-491b-b628-b3c7488f1fff" />
+Resultado:
+
+<img width="612" height="295" alt="resultado" src="https://github.com/user-attachments/assets/6aac9b40-2d7d-491b-b628-b3c7488f1fff" />
 
