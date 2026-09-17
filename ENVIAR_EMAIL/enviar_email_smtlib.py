@@ -44,13 +44,12 @@ destinatario = StringVar(ventana)
 asunto = StringVar(ventana)
 opcion_seleccionada = StringVar(ventana)
 
-# Lista de correos requerida
+# Lista de correos 
 lista_correos = [
     "Seleccionar contacto...",
     "fjcoronati@gmail.com",        
     "mfedullo@gmail.com",
-    "lafortaleza246@gmail.com",
-    "Katsukibakugouteamo20@gmail.com",       
+    "lafortaleza246@gmail.com",       
 ]
 opcion_seleccionada.set(lista_correos[0])
 
@@ -68,7 +67,7 @@ entry_font = ("Helvetica", 10)
 
 Label(ventana, text="Contactos:", fg=TEXT_COLOR, bg=BG_COLOR, font=label_font).grid(row=3, column=0, sticky="e", pady=8, padx=5)
 
-# OptionMenu personalizado estilo coquette
+# OptionMenu 
 opt_menu = OptionMenu(ventana, opcion_seleccionada, *lista_correos)
 opt_menu.config(bg=WHITE, fg=TEXT_COLOR, activebackground=ACCENT_PINK, activeforeground=WHITE, font=("Helvetica", 9), highlightthickness=0, bd=1, relief="solid")
 opt_menu["menu"].config(bg=WHITE, fg=TEXT_COLOR, font=("Helvetica", 9))
@@ -111,7 +110,7 @@ def enviar_email():
     except Exception as e:
          messagebox.showerror("Error", f"Ocurrió un error: {e}")
 
-# Botón estilo coquette con tonos rosados y bordes suaves
+# Botón 
 btn_enviar = Button(ventana, text="ENVIAR 🎀", command=enviar_email, height=1, width=14, bg=ACCENT_PINK, fg=WHITE, font=("Helvetica", 10, "bold"), bd=0, activebackground="#ff8fab", activeforeground=WHITE, cursor="hand2")
 btn_enviar.grid(row=7, column=0, columnspan=2, padx=5, pady=12)
 
