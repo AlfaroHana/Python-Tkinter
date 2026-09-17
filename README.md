@@ -40,7 +40,7 @@ Se realizó una refactorización integral del código original para corregir fal
  
  Cambios Estéticos y de Diseño
 
-La interfaz gráfica fue rediseñada por completo pasando de un diseño básico a un estilo visual moderno y estilizado (*estética pastel / coquette*):
+La interfaz gráfica fue rediseñada por completo pasando de un diseño básico a un estilo visual moderno y estilizado:
 
 *  Paleta de Colores Armónica: Se definieron variables globales para los colores (`#fff0f3` para el fondo, `#ffb3c6` para acentos rosados y `#785964` para textos).
 *  Dimensiones Ampliadas: Se expandió el tamaño de la ventana de `335x385` a `390x590` para evitar que los elementos se encimaran.
